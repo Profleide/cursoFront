@@ -1,0 +1,4 @@
+body{
+    background: linear-gradient(to right, #6cff5f, hsl(234, 98%, 74%));
+    background-blend-mode: darken;
+}

@@ -1,0 +1,31 @@
+body
+{
+  background: linear-gradient(to right, #ff7e5f, #ea7bfe);
+}
+
+.imagem{
+position: absolute;
+top: 0;
+right: 4%;
+}
+.imagem img{
+  border-radius: 50%;
+  margin-top: auto;
+}
+a{
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.redes{
+  position: fixed;
+  top: 50%;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.lk{
+margin-right: 10px;
+}
+
