@@ -10,42 +10,63 @@
     <header>
         <h1>Catálogo Digital</h1>
         <p>Bem-vindo ao nosso catálogo digital. Aqui você encontrará uma variedade de produtos.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <table border="1">
-        <!-- tr é coluna -->
+
+    <section class="produto">
+        <img src="st.png" alt="Descrição do Produto 1">
+        <h2>Cerveja Stella</h2>
+        <p>Stella Artois Pure Gold é a evolução de Stella Artois Sem Glúten com 17% 
+            menos calorias que a versão regular, mas com todo o sabor que os consumidores
+         já conhecem. Atenta às opiniões e tendências de comportamento dos nossos
+          consumidores, como a valorização de uma vida mais equilibrada, 
+          Stella Artois inova com Pure Gold, uma bebida ideal para quem não abre mão de 
+          uma geladinha saborosa ao redor da mesa, porém com menos caloria e sem glúten.</p>
+    </section>
+
+    <section class="produto">
+        <img src="he.png" alt="Descrição do Produto 2">
+        <h2>Cerveja Heineken</h2>
+        <p>É sempre incrível ver uma Heineken gelada, refrescante e de alta qualidade
+             em qualquer lugar. Saboreada em todos os cantos do mundo desde 1873.</p>
+    </section>
+    <table>
         <tr>
-            <!-- Th parte de cima da tabela -->
             <th>Produto</th>
             <th>Preço</th>
         </tr>
         <tr>
-            <td>Produto 1</td>
+            <td>Cerveja Stella</td>
             <td>R$10,00</td>
         </tr>
         <tr>
-            <td>Produto 2</td>
+            <td>Cerveja Heineken</td>
             <td>R$15,00</td>
         </tr>
-        <!-- Adicione mais linhas conforme necessário -->
+       
     </table>
-   <footer>
-    <section class="produto">
-        <img src="caminho/para/imagem.jpg" alt="Descrição do Produto 1">
-        <h2>Produto 1</h2>
-        <p>Descrição do Produto 1</p>
-    </section>
-    
-    <section class="produto">
-        <img src="caminho/para/imagem.jpg" alt="Descrição do Produto 1">
-        <h2>Produto 1</h2>
-        <p>Descrição do Produto 1</p>
-    </section>
-    <img src="caminho/para/imagem.jpg" alt="Descrição do Produto 1">
-        <h2>Produto 1</h2>
-        <p>Descrição do Produto 1</p>
-    
-   </footer>
-   
 
+    <section class="formulario">
+        <h2>Cadastre-se</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Catálogo Digital. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
